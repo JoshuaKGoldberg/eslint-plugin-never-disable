@@ -10,12 +10,17 @@ Given the following configuration:
 
 ```js
 module.exports = {
-	plugins: ["eslint-plugin-never-disable"],
+	plugins: ["never-disable"],
 	rules: {
 		"never-disable/rules": [
+			"error",
 			{
-				message: "Explanation for why this is so.",
-				rule: "rule-to-never-disable",
+				rules: [
+					{
+						message: "Explanation for why this is so.",
+						rule: "rule-to-never-disable",
+					},
+				],
 			},
 		],
 	},

@@ -23,12 +23,17 @@ Add the following options to your [ESLint configuration file](https://eslint.org
 ```js
 module.exports = {
 	// ...
-	plugins: ["eslint-plugin-never-disable"],
+	plugins: ["never-disable"],
 	rules: {
 		"never-disable/rules": [
+			"error",
 			{
-				message: "Explanation for why this is so.",
-				rule: "rule-to-never-disable",
+				rules: [
+					{
+						message: "Explanation for why this is so.",
+						rule: "rule-to-never-disable",
+					},
+				],
 			},
 		],
 	},
