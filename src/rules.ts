@@ -25,14 +25,16 @@ export const rules: TSESLint.RuleModule<MessageIds, [Options]> = createRule<
 		const ruleBans = rules.map(({ message, rule }) => ({
 			message,
 			rule,
-			tester: new RegExp(`eslint-disable(?:-next-line)?.*${rule}`),
+			tester: new RegExp(
+				`^eslint-disable(?:-next-line)?.*\\s+${rule}(\\s*,?|$)`,
+			),
 		}));
 
 		return {
 			Program() {
 				for (const comment of context.sourceCode.getAllComments()) {
 					for (const ruleBan of ruleBans) {
-						if (ruleBan.tester.test(comment.value)) {
+						if (ruleBan.tester.test(comment.value.trim())) {
 							context.report({
 								data: {
 									message: ruleBan.message,

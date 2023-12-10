@@ -51,5 +51,13 @@ ruleTester.run("rules", rules, {
 			code: `/* eslint-disable no-shadow, no-var */`,
 			options: [{ rules: [{ message: "Do not want.", rule: "one-var" }] }],
 		},
+		{
+			code: `/* eslint-disable no-template-curly-in-string */`,
+			options: [{ rules: [{ message: "Do not want.", rule: "curly" }] }],
+		},
+		{
+			code: `/* eslint-disable one-var, no-template-curly-in-string, no-var */`,
+			options: [{ rules: [{ message: "Do not want.", rule: "curly" }] }],
+		},
 	],
 });
