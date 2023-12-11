@@ -5,7 +5,7 @@
 <p align="center">
 	<!-- prettier-ignore-start -->
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-	<a href="#contributors" target="_blank"><img alt="All Contributors: 1 👪" src="https://img.shields.io/badge/all_contributors-1_👪-21bb42.svg" /></a>
+	<a href="#contributors" target="_blank"><img alt="All Contributors: 2 👪" src="https://img.shields.io/badge/all_contributors-2_👪-21bb42.svg" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 	<!-- prettier-ignore-end -->
 	<a href="https://codecov.io/gh/JoshuaKGoldberg/eslint-plugin-never-disable" target="_blank"><img alt="Codecov Test Coverage" src="https://codecov.io/gh/JoshuaKGoldberg/eslint-plugin-never-disable/branch/main/graph/badge.svg"/></a>
@@ -69,6 +69,7 @@ Rule 'rule-to-never-disable' should not be disabled. Explanation for why this is
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://www.joshuakgoldberg.com/"><img src="https://avatars.githubusercontent.com/u/3335181?v=4?s=100" width="100px;" alt="Josh Goldberg ✨"/><br /><sub><b>Josh Goldberg ✨</b></sub></a><br /><a href="https://github.com/JoshuaKGoldberg/eslint-plugin-never-disable/commits?author=JoshuaKGoldberg" title="Code">💻</a> <a href="#content-JoshuaKGoldberg" title="Content">🖋</a> <a href="https://github.com/JoshuaKGoldberg/eslint-plugin-never-disable/commits?author=JoshuaKGoldberg" title="Documentation">📖</a> <a href="#ideas-JoshuaKGoldberg" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-JoshuaKGoldberg" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-JoshuaKGoldberg" title="Maintenance">🚧</a> <a href="#projectManagement-JoshuaKGoldberg" title="Project Management">📆</a> <a href="#tool-JoshuaKGoldberg" title="Tools">🔧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://evyatar.tk"><img src="https://avatars.githubusercontent.com/u/32631382?v=4?s=100" width="100px;" alt="StyleShit"/><br /><sub><b>StyleShit</b></sub></a><br /><a href="https://github.com/JoshuaKGoldberg/eslint-plugin-never-disable/issues?q=author%3Astyleshit" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>

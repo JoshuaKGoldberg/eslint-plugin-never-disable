@@ -18,6 +18,15 @@
         "projectManagement",
         "tool"
       ]
+    },
+    {
+      "login": "styleshit",
+      "name": "StyleShit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32631382?v=4",
+      "profile": "https://evyatar.tk",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -29,5 +38,6 @@
   "projectName": "eslint-plugin-never-disable",
   "projectOwner": "JoshuaKGoldberg",
   "repoHost": "https://github.com",
-  "repoType": "github"
+  "repoType": "github",
+  "commitType": "docs"
 }
