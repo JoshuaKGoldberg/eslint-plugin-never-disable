@@ -1,3 +1,9 @@
+## [0.1.2](https://github.com/JoshuaKGoldberg/eslint-plugin-never-disable/compare/0.1.1...0.1.2) (2023-12-11)
+
+### Bug Fixes
+
+- rule throws error for non `eslint-disable` comments ([8024e9d](https://github.com/JoshuaKGoldberg/eslint-plugin-never-disable/commit/8024e9d92c6fc2ba4fc6e8a114944f1e252168d5))
+
 ## [0.1.1](https://github.com/JoshuaKGoldberg/eslint-plugin-never-disable/compare/0.1.0...0.1.1) (2023-12-07)
 
 ### Bug Fixes
