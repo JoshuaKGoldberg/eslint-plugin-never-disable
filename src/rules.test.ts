@@ -51,5 +51,9 @@ ruleTester.run("rules", rules, {
 			code: `/* eslint-disable no-shadow, no-var */`,
 			options: [{ rules: [{ message: "Do not want.", rule: "one-var" }] }],
 		},
+		{
+			code: `/* we-should-never-eslint-disable one-var */`,
+			options: [{ rules: [{ message: "Do not want.", rule: "one-var" }] }],
+		},
 	],
 });
