@@ -26,7 +26,7 @@ export const rules: TSESLint.RuleModule<MessageIds, [Options]> = createRule<
 			message,
 			rule,
 			tester: new RegExp(
-				`^eslint-disable(?:-next-line)?.*\\s+${rule}(\\s*,?|$)`,
+				`^eslint-disable(?:-next-line)?\\s+.*(?<=,|\\s)${rule}(?=,|\\s|$)`,
 			),
 		}));
 
