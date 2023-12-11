@@ -44,10 +44,10 @@ Rules may be specified as an array of objects, each of which have the following 
 
 <!-- begin auto-generated rule options list -->
 
-| Name      | Type     |
-| :-------- | :------- |
-| `message` | String   |
-| `rule`    | String   |
-| `rules`   | Object[] |
+| Name      | Description                             | Type     |
+| :-------- | :-------------------------------------- | :------- |
+| `message` | Message to include in rule reports.     | String   |
+| `rule`    | Rule to disable, including plugin name. | String   |
+| `rules`   |                                         | Object[] |
 
 <!-- end auto-generated rule options list -->

@@ -52,9 +52,9 @@ Rule 'rule-to-never-disable' should not be disabled. Explanation for why this is
 <!-- prettier-ignore-start -->
 <!-- begin auto-generated rules list -->
 
-| Name                                 | Description                               |
-| :----------------------------------- | :---------------------------------------- |
-| [rulesRule](docs/rules/rulesRule.md) | Completely bans disabling specific rules. |
+| Name                         | Description                               |
+| :--------------------------- | :---------------------------------------- |
+| [rules](docs/rules/rules.md) | Completely bans disabling specific rules. |
 
 <!-- end auto-generated rules list -->
 <!-- prettier-ignore-end -->
