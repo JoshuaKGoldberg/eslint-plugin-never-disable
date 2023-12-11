@@ -59,5 +59,9 @@ ruleTester.run("rules", rules, {
 			code: `/* eslint-disable one-var, no-template-curly-in-string, no-var */`,
 			options: [{ rules: [{ message: "Do not want.", rule: "curly" }] }],
 		},
+		{
+			code: `/* we-should-never-eslint-disable one-var */`,
+			options: [{ rules: [{ message: "Do not want.", rule: "one-var" }] }],
+		},
 	],
 });
