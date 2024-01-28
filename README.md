@@ -16,6 +16,10 @@
 	<img alt="npm package version" src="https://img.shields.io/npm/v/eslint-plugin-never-disable?color=21bb42" />
 </p>
 
+## Archived
+
+**Use [`eslint-comments/no-restricted-disable`](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-restricted-disable.html) instead.**
+
 ## Usage
 
 Add the following options to your [ESLint configuration file](https://eslint.org/docs/latest/user-guide/configuring/configuration-files):
